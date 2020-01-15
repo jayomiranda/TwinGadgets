@@ -1,0 +1,27 @@
+body { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+	margin-top: 20rem;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+}
+
+.buffer {
+	margin-top: 5rem;
+}
+
+.product1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
